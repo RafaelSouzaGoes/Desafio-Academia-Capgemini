@@ -15,7 +15,7 @@ public class Questao3 {
 
 			String palavra = leInformacao("Digite a palavra que sera verificada ", input);
 			pegaQtdDeAnagramas(palavra);
-			System.out.println("\nTestar outra senha? SIM (S) ou N√O(N)");
+			System.out.println("\nTestar outra senha? SIM (S) ou N√ÉO(N)");
 			resp = input.nextLine();
 		} while (resp.equalsIgnoreCase("S"));
 		System.out.println("volte sempre!");
@@ -27,7 +27,7 @@ public class Questao3 {
 
 		System.out.println(msg);
 		String entrada = input.nextLine().toLowerCase().replace(" ", ""); // armazena a paravra, deixa tudo em minusculo
-																			// e retira os espaÁos!
+																			// e retira os espa√ßos!
 
 		return entrada;
 	}
@@ -52,8 +52,7 @@ public class Questao3 {
 				}
 			}
 		}
-		System.out
-				.println("Quantidade de pares que s„o anagramas È de " + contador);
+		System.out.println("Quantidade de pares que s√£o anagramas √© de " + contador);
 		return contador;
 	}
 
